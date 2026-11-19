@@ -1,0 +1,8 @@
+{
+  "name": "R08-3 japriin",
+  "description": "Automatically detect and remove inactive or unregistered WhatsApp numbers from your database to ensure data security.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

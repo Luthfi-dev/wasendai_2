@@ -1,0 +1,27 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Sensitive Baileys WhatsApp sessions & auth credentials (NEVER commit to git)
+baileys_auth_sessions/
+baileys_auth_sessions/**
+*baileys*session*/
+auth_info*/
+session_*/
+creds.json
+
+# Runtime database & secrets
+database.json
+*.db
+*.sqlite
+*.sqlite3
+.runtime_secret
+.runtime_db.enc
+.japriin_secret
+uploads/
+logs/
